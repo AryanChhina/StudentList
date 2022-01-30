@@ -11,7 +11,8 @@ public class StudentList {
 public static void main(String[] args) {
        Scanner input = new Scanner(System.in);
        
-       Student[] students = new Student[3];
+       // changed array size to 4
+       Student[] students = new Student[4];
        
        System.out.println("Enter student names");
        
